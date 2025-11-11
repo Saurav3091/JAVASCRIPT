@@ -1,0 +1,54 @@
+ <!-- wap to find maximum from 4 numbers using nested if else  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        const a = 150 , b = 110 , c = 100 , d = 10;
+        // a b c d 
+            if(a > b){
+                if(a>c){
+                    if(a>d){
+                        console.log("a is max ")
+                    }
+                    else {
+                        console.log("d is max")
+                    }
+                }
+                else{
+                    console.log("c is max")
+
+                }
+            }
+            // b c d
+            else{
+                if(b>c){
+                    if (b>d){
+                        console.log("b is max")
+                    }
+                    else{
+                        console.log ("d is max")
+
+                    }
+
+                }
+                // c d
+                else
+                {
+                    if(c>d){
+                        console.log ("c is max ")
+                    }
+                    else{
+                        console.log ( "d is max")
+                    }
+                }
+            }
+            
+    </script>
+
+    </body>
+</html>
